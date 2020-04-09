@@ -1,0 +1,63 @@
+body {
+    background-color: #a4ffa7;
+}
+
+#container {
+    text-align: center;
+}
+
+.container_stop {
+    display: none;
+}
+
+.map_small {
+    height: 400px;
+    width: 400px;
+}
+
+.map_medium {
+    height: 600px;
+    width: 600px;
+}
+
+.map_large {
+    height: 800px;
+    width: 800px;
+}
+
+#distance_field {
+    margin-top: 10px;
+}
+
+#distance {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.distance_near {
+    background-color: #ff0019;
+}
+
+.distance_very_close {
+     background-color: #ff4100;
+ }
+
+.distance_close {
+    background-color: #ff6000;
+}
+
+.distance_closely {
+    background-color: #ffbd00;
+}
+
+.distance_far_away {
+    background-color: #00e1ff;
+}
+
+.distance_very_far_away {
+    background-color: #0077ff;
+}
+
+.distance_north_pole {
+    background-color: #0045ff;
+}
